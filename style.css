@@ -1,0 +1,45 @@
+/* Element selector */
+div {
+    background-color: aqua;
+}
+
+/* Class selector */
+.one {
+    color: blue;
+    background-color: grey;
+}
+
+/* ID selector */
+#second{
+    color: palevioletred;
+    background-color: lightgoldenrodyellow;
+}
+
+/* Child selector */
+div>p {
+    background-color: blue;
+    color: white;
+}
+
+/* Descendant selector */
+div h1 {
+    color: yellow;
+}
+
+/* Universal selector */
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* pseudo selector */
+a:visited {
+    color: red;
+    background-color: brown;
+}
+a:active {
+    background-color: purple;
+}
+a:hover{
+    background-color: burlywood;
+}
