@@ -10,7 +10,7 @@ div {
 }
 
 /* ID selector */
-#second{
+#second {
     color: palevioletred;
     background-color: lightgoldenrodyellow;
 }
@@ -37,9 +37,14 @@ a:visited {
     color: red;
     background-color: brown;
 }
+
 a:active {
     background-color: purple;
 }
-a:hover{
+
+a:hover {
     background-color: burlywood;
+}
+a:link{
+    color: black;
 }
