@@ -45,6 +45,18 @@ a:active {
 a:hover {
     background-color: burlywood;
 }
-a:link{
+
+a:link {
     color: black;
+}
+
+/* adjacent sibiling selector */
+div + p {
+    background-color: lightcoral;
+}
+/* General sibiling selector */
+main ~ p{
+    background-color: lightseagreen;
+    color: black
+    ;
 }
