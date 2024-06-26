@@ -57,6 +57,5 @@ div + p {
 /* General sibiling selector */
 main ~ p{
     background-color: lightseagreen;
-    color: black
-    ;
+    color: black;
 }
