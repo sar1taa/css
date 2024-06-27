@@ -51,11 +51,46 @@ a:link {
 }
 
 /* adjacent sibiling selector */
-div + p {
+div+p {
     background-color: lightcoral;
 }
+
 /* General sibiling selector */
-main ~ p{
+main~p {
     background-color: lightseagreen;
     color: black;
+}
+
+/* Box model */
+.box {
+    background-color: #8861eb;
+    height: 200px;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* text */
+h1 {
+    color: hsl(0, 100%, 50%);
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-transform: capitalize;
+    text-decoration-thickness: 5px;
+    text-decoration-color: rgba(0, 0, 255, 0.253);
+    background-color: rgb(251, 211, 125);
+}
+
+.text {
+    width: 70px;
+    border: 1px solid black;
+    /* text-overflow: ellipsis;
+    overflow: hidden; */
+    text-indent: 10px;
+    line-height: 15px;
+    word-break: break-all;
+    word-spacing: 2px;
+    letter-spacing: 1px;
 }
